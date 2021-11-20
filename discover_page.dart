@@ -69,19 +69,27 @@ class _DiscoverPageState extends State<DiscoverPage> {
                     width: 28.w,
                   ),
                   CategoryBoxes(
-                    text: "Insomnia",
+                    text: "Rock",
                     onPressed: (value) => print(value),
                   ),
                   CategoryBoxes(
-                    text: "Depression",
+                    text: "Jazz",
                     onPressed: (value) => print(value),
                   ),
                   CategoryBoxes(
-                    text: "Baby Sleep",
+                    text: "Pop Music",
                     onPressed: (value) => print(value),
                   ),
                   CategoryBoxes(
-                    text: "Insomnia",
+                    text: "Metal",
+                    onPressed: (value) => print(value),
+                  ),
+                  CategoryBoxes(
+                    text: "Classical",
+                    onPressed: (value) => print(value),
+                  ),
+                  CategoryBoxes(
+                    text: "Symphonic",
                     onPressed: (value) => print(value),
                   ),
                 ],
